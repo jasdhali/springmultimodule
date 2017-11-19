@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.springframework</groupId>
-    <artifactId>gs-multi-module</artifactId>
-    <version>0.1.0</version>
-    <packaging>pom</packaging>
+	<groupId>org.springframework</groupId>
+	<artifactId>gs-multi-module</artifactId>
+	<version>0.1.0</version>
+	<packaging>pom</packaging>
 
-    <modules>
-        <module>library</module>
-        <module>application</module>
-    </modules>
-
+	<modules>
+		<module>library</module>
+		<module>application</module>
+	</modules>
+	<scm>
+		<developerConnection>scm:svn:https://svn.mycompany.com/repos/myapplication/trunk/mycomponent/</developerConnection>
+	</scm>
 </project>
