@@ -1,0 +1,4 @@
+mvn -Dusername=jasdhali@gmail.com release:prepare -Dpassword=R0ck@ndr011 -DdryRun=true
+mvn -Dusername=your_scm_username release:prepare -Dpassword=R0ck@ndr011 -DdryRun=true
+mvn release:rollback
+mvn -Dusername=jasdhali@gmail.com -Dpassword=R0ck@ndr011 release:perform
