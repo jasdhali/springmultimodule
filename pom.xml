@@ -15,6 +15,15 @@
 	<scm>
 		<developerConnection>scm:git:https://github.com/jasdhali/springmultimodule.git</developerConnection>
 	</scm>
+	
+	<distributionManagement>
+	    <snapshotRepository>
+	        <id>snapshots</id>
+	        <name>localhost.localdomain-snapshots</name>
+	        <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
+	    </snapshotRepository>
+	</distributionManagement>
+	
 	<build>
 	<plugins>
 		<plugin>
